@@ -10,6 +10,16 @@ body{
    
     margin: 13px auto 15px;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 62px;
+}
 .header__link{
     font-weight: 400;
     font-size: 14px;
@@ -89,8 +99,15 @@ body{
 }
 .footer{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0px auto;
     background: rgba(32, 0, 60, 1);
+    padding: 58px 0 58px;
+}
+
+.footer__ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 74px; 
 }
 .footer__link{
     font-weight: 700;
