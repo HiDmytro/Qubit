@@ -108,15 +108,16 @@ body{
     max-width: 415px;
 }
 .grow__flex {
-       display: flex;
-       gap: 34px;
-
+    display: flex;
+    gap: 34px;
+    
        
        
     }
 .grow__element{
     max-width: 333px;
     text-align: center;
+    
  }   
 .grow__item{
     padding: 35px 0 85px;
@@ -135,8 +136,32 @@ body{
     color: #6F2CFF;
     max-width: 219px;
     margin: 0 auto;
+}
+.commerce__flex{
+   margin-bottom: 136px; 
+}
+.commerce__element{
+    max-width: 316px;
+    text-align: center;
     
+}
+.commerce__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin: 31px 0px 79px;
+}
 
+.commerce__pretitle{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    margin: 42px 0 16px;
+}
+.commerce__text{
+    font-size: 15px;
+    line-height: 22px;
 }
 .footer{
     max-width: 1440px;
